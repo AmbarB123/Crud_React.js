@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.custom-navbar-bg {
+  background-color: #3498db;
+  margin-bottom: 50px
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn-Info {
+  margin-bottom: 50px;
+}
+
+.btn-Info a,
+.btn-Success a {
+  color: white;
+  text-decoration: none !important;
+}
+
+.grid-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 90px;
+  gap: 20px
+}
+
+.Detalle {
+  width: 100%;
+  background-color: #3498db;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.information p {
+  font-size: 2rem
+}
+
+.back-btn {
+  margin-top: 40px;
+}
+
+.btn-actions button {
+  margin-right: 20px;
 }
